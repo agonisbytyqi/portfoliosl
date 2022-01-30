@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="~/css/style.css">
+    <script src="js/script.js"></script>
+    <!-- js plugins for animation -->
+    <script type="text/javascript" src="~/js/jquery.1.11.1.js"></script>
+    <script type="text/javascript" src="~/js/owl.carousel.js"></script>
+    <script type="text/javascript" src="~/js/main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="~/css1/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="~/css1/style.css">
+    <link rel="stylesheet" type="text/css" href="~/css1/responsive.css">
+</head>
+<body>
+    <nav>
+        <a href=""></a>
+        <a class="links" asp-controller="home" asp-action="home">01 : home</a>
+        <a class="links" asp-controller="home" asp-action="about"> 03 : about</a>
+        <a class="links" asp-controller="home" asp-action="projects"> 02 : projects</a>
+        <a class="links" asp-controller="home" asp-action="contact"> 04 : contact</a>
+        <a class="hamburger">☰</a>
+    </nav>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    
+    <footer class="footer1">
+        <div class="footer-center">
+            <p>Made by : Agonis Bytyqi</p>
+            <p>For <strong>Starlab</strong></p>
+            <a href="mailto:bytyqiagonis@gmail.com">bytyqiagonis@gmail.com</a>
+            <p>+38349875338</p>
+            <div class="footericons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-github"><a href="facebook.com/agonisbytyqi"></a></i>
+            </div>
+        </div>
+    </footer>
+    <script src="~/js/script.js"></script>
+</body>
+</html>
