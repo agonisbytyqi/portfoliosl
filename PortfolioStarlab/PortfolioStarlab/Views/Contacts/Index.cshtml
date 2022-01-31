@@ -1,15 +1,5 @@
-﻿@model IEnumerable<PortfolioStarlab.Models.Contact
-
-@if (SignInManager.IsSignedIn(User) && User.IsInRole("Admin"))
-{
-    <style>
-        body {
-            background-color: cornflowerblue;
-        }
-    </style>
-
+﻿@model System.Collections.Generic.IEnumerable<Contact>
     <h1>Index</h1>
-
     <p>
         <a asp-action="Create">Create New</a>
     </p>
@@ -56,4 +46,3 @@
             }
         </tbody>
     </table>
-}

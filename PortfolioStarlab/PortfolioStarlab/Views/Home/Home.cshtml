@@ -18,7 +18,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-4 col-sm-offset-1 scrollimation fade-right in">
-                <img class="img-responsive img-circle img-center" src="images/agonis.jpg" alt="">
+                <img class="img-responsive img-circle img-center" src="images/image1.jpeg" alt="" style="border-radius: 1400px;">
             </div>
             <div class="col-sm-6 col-sm-offset-1 scrollimation fade-left in">
                 <p style="text-align: center; padding: 75px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">I am <strong>Agonis Bytyqi</strong> a 22 year old Back-End/Developer from Gjakova. I studying a Bachelor degree of Computer Science & Engineering, from the UBT. I have a passion for programming.</p>
@@ -155,17 +155,6 @@
             </div>
         </a>
     </div>
-    <div class="card-grid-space">
-        <a class="card" href="https://maximusi.com/home" style="background-image: url('images/todolist.png');">
-            <div>
-                <p>Used: PHP</p>
-                <div class="date">MAY 2021</div>
-                <div class="tags">
-                    <div class="tag">Maximusi</div>
-                </div>
-            </div>
-        </a>
-    </div>
 </section>
 <div class="fancy"><span></span></div>
 <h2 style="color: black; text-align: center;">CONTACT ME</h2>
@@ -180,7 +169,7 @@
                 </address>
             </div>
             <div class="col-lg-6 col-md-6 col-xs-10 wow fadeInUp" data-wow-delay="0.6s">
-                @using (Html.BeginForm("Profile", "Contacts", FormMethod.Post))
+                @using (Html.BeginForm("Create", "Contacts", FormMethod.Post))
                 {
                     @Html.AntiForgeryToken()
                     @Html.TextBoxFor(m => m.FullName, new { @placeholder = "Full Name" })

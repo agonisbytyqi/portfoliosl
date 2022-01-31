@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fXjMMAnc0Ow2RI53C6QQolQPREywjQ12M1uQgx1BwfLiBTBQU2BSabJ7tqc0JoicL9E0FXdDGPNjj67n0vz9PQ==",
+  "dgSpecHash": "kg1Akws6MU0vgIKRzUHgzgtLgCKW5DwlK0xqiXw8uqXZsVJ0JUz0ZS2ynDpz9YS9UJ2v7WkbnRAhWaH0F5Efxg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\BesiService\\source\\repos\\PortfolioStarlab\\PortfolioStarlab\\PortfolioStarlab.csproj",
+  "projectFilePath": "C:\\Users\\BesiService\\source\\repos\\portfoliosl\\PortfolioStarlab\\PortfolioStarlab\\PortfolioStarlab.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BesiService\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.22\\microsoft.aspnetcore.cryptography.internal.3.1.22.nupkg.sha512",
     "C:\\Users\\BesiService\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.22\\microsoft.aspnetcore.cryptography.keyderivation.3.1.22.nupkg.sha512",

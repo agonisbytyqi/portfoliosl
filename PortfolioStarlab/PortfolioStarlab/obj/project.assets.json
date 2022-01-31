@@ -8977,11 +8977,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BesiService\\source\\repos\\PortfolioStarlab\\PortfolioStarlab\\PortfolioStarlab.csproj",
+      "projectUniqueName": "C:\\Users\\BesiService\\source\\repos\\portfoliosl\\PortfolioStarlab\\PortfolioStarlab\\PortfolioStarlab.csproj",
       "projectName": "PortfolioStarlab",
-      "projectPath": "C:\\Users\\BesiService\\source\\repos\\PortfolioStarlab\\PortfolioStarlab\\PortfolioStarlab.csproj",
+      "projectPath": "C:\\Users\\BesiService\\source\\repos\\portfoliosl\\PortfolioStarlab\\PortfolioStarlab\\PortfolioStarlab.csproj",
       "packagesPath": "C:\\Users\\BesiService\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BesiService\\source\\repos\\PortfolioStarlab\\PortfolioStarlab\\obj\\",
+      "outputPath": "C:\\Users\\BesiService\\source\\repos\\portfoliosl\\PortfolioStarlab\\PortfolioStarlab\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\BesiService\\AppData\\Roaming\\NuGet\\NuGet.Config",
